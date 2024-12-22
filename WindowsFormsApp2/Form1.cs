@@ -66,8 +66,12 @@ namespace WindowsFormsApp2
             ///第二次更改了哈
             ///
 
+
             ///Add file 分支，基于主分支，先pull request但是不要去同意，看看有没有合并到主分支
             ///2024.12.22晚9点
+
+            ///分支Geometry的更改，2024.12.22晚8点半
+
         }
     }
 }
