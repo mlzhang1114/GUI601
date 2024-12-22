@@ -57,5 +57,10 @@ namespace WindowsFormsApp2
                 chart1.Series["lineChart"].Points.AddXY(i, i * 5);
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //用于更改测试
+        }
     }
 }

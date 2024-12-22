@@ -31,9 +31,9 @@ namespace WindowsFormsApp2
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.materialButton1 = new MaterialSkin.Controls.MaterialButton();
             this.materialButton2 = new MaterialSkin.Controls.MaterialButton();
             this.materialButton3 = new MaterialSkin.Controls.MaterialButton();
@@ -42,35 +42,36 @@ namespace WindowsFormsApp2
             this.materialButton6 = new MaterialSkin.Controls.MaterialButton();
             this.materialTabControl1 = new MaterialSkin.Controls.MaterialTabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.materialButton10 = new MaterialSkin.Controls.MaterialButton();
+            this.materialButton9 = new MaterialSkin.Controls.MaterialButton();
+            this.materialButton8 = new MaterialSkin.Controls.MaterialButton();
+            this.materialButton7 = new MaterialSkin.Controls.MaterialButton();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.materialButton11 = new MaterialSkin.Controls.MaterialButton();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.materialButton16 = new MaterialSkin.Controls.MaterialButton();
+            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.materialButton15 = new MaterialSkin.Controls.MaterialButton();
+            this.materialButton14 = new MaterialSkin.Controls.MaterialButton();
+            this.materialButton13 = new MaterialSkin.Controls.MaterialButton();
+            this.materialButton12 = new MaterialSkin.Controls.MaterialButton();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fhToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.保存ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.覅给ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.发给ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.materialButton7 = new MaterialSkin.Controls.MaterialButton();
-            this.materialButton8 = new MaterialSkin.Controls.MaterialButton();
-            this.materialButton9 = new MaterialSkin.Controls.MaterialButton();
-            this.materialButton10 = new MaterialSkin.Controls.MaterialButton();
-            this.materialButton11 = new MaterialSkin.Controls.MaterialButton();
-            this.materialButton12 = new MaterialSkin.Controls.MaterialButton();
-            this.materialButton13 = new MaterialSkin.Controls.MaterialButton();
-            this.materialButton14 = new MaterialSkin.Controls.MaterialButton();
-            this.materialButton15 = new MaterialSkin.Controls.MaterialButton();
             this.打开已有项目ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.保存项目ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.生成报告ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.退出ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.materialButton16 = new MaterialSkin.Controls.MaterialButton();
+            this.覅给ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.发给ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.button1 = new System.Windows.Forms.Button();
             this.materialTabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
-            this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // materialButton1
@@ -217,6 +218,7 @@ namespace WindowsFormsApp2
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.button1);
             this.tabPage1.Controls.Add(this.materialButton10);
             this.tabPage1.Controls.Add(this.materialButton9);
             this.tabPage1.Controls.Add(this.materialButton8);
@@ -232,6 +234,91 @@ namespace WindowsFormsApp2
             this.tabPage1.Text = "几何模型";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+            // materialButton10
+            // 
+            this.materialButton10.AccentTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(64)))), ((int)(((byte)(129)))));
+            this.materialButton10.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton10.CharacterCasing = MaterialSkin.Controls.MaterialButton.CharacterCasingEnum.Normal;
+            this.materialButton10.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButton10.Depth = 0;
+            this.materialButton10.HighEmphasis = true;
+            this.materialButton10.Icon = null;
+            this.materialButton10.Location = new System.Drawing.Point(313, 189);
+            this.materialButton10.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton10.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton10.Name = "materialButton10";
+            this.materialButton10.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.materialButton10.Size = new System.Drawing.Size(122, 36);
+            this.materialButton10.TabIndex = 9;
+            this.materialButton10.Text = "救生伞几何模型";
+            this.materialButton10.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.materialButton10.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.materialButton10.UseAccentColor = false;
+            this.materialButton10.UseVisualStyleBackColor = true;
+            // 
+            // materialButton9
+            // 
+            this.materialButton9.AccentTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(64)))), ((int)(((byte)(129)))));
+            this.materialButton9.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton9.CharacterCasing = MaterialSkin.Controls.MaterialButton.CharacterCasingEnum.Normal;
+            this.materialButton9.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButton9.Depth = 0;
+            this.materialButton9.HighEmphasis = true;
+            this.materialButton9.Icon = null;
+            this.materialButton9.Location = new System.Drawing.Point(313, 114);
+            this.materialButton9.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton9.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton9.Name = "materialButton9";
+            this.materialButton9.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.materialButton9.Size = new System.Drawing.Size(122, 36);
+            this.materialButton9.TabIndex = 8;
+            this.materialButton9.Text = "救生伞几何模型";
+            this.materialButton9.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.materialButton9.UseAccentColor = false;
+            this.materialButton9.UseVisualStyleBackColor = true;
+            // 
+            // materialButton8
+            // 
+            this.materialButton8.AccentTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(64)))), ((int)(((byte)(129)))));
+            this.materialButton8.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton8.CharacterCasing = MaterialSkin.Controls.MaterialButton.CharacterCasingEnum.Normal;
+            this.materialButton8.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButton8.Depth = 0;
+            this.materialButton8.HighEmphasis = true;
+            this.materialButton8.Icon = null;
+            this.materialButton8.Location = new System.Drawing.Point(313, 43);
+            this.materialButton8.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton8.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton8.Name = "materialButton8";
+            this.materialButton8.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.materialButton8.Size = new System.Drawing.Size(122, 36);
+            this.materialButton8.TabIndex = 7;
+            this.materialButton8.Text = "稳定伞几何模型";
+            this.materialButton8.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.materialButton8.UseAccentColor = false;
+            this.materialButton8.UseVisualStyleBackColor = true;
+            // 
+            // materialButton7
+            // 
+            this.materialButton7.AccentTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(64)))), ((int)(((byte)(129)))));
+            this.materialButton7.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton7.CharacterCasing = MaterialSkin.Controls.MaterialButton.CharacterCasingEnum.Normal;
+            this.materialButton7.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButton7.Depth = 0;
+            this.materialButton7.HighEmphasis = true;
+            this.materialButton7.Icon = null;
+            this.materialButton7.Location = new System.Drawing.Point(140, 189);
+            this.materialButton7.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton7.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton7.Name = "materialButton7";
+            this.materialButton7.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.materialButton7.Size = new System.Drawing.Size(136, 36);
+            this.materialButton7.TabIndex = 6;
+            this.materialButton7.Text = "弹射座椅几何模型";
+            this.materialButton7.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.materialButton7.UseAccentColor = false;
+            this.materialButton7.UseVisualStyleBackColor = true;
+            // 
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.materialButton11);
@@ -245,6 +332,28 @@ namespace WindowsFormsApp2
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "数值模型";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // materialButton11
+            // 
+            this.materialButton11.AccentTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(64)))), ((int)(((byte)(129)))));
+            this.materialButton11.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton11.CharacterCasing = MaterialSkin.Controls.MaterialButton.CharacterCasingEnum.Normal;
+            this.materialButton11.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButton11.Depth = 0;
+            this.materialButton11.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.materialButton11.HighEmphasis = true;
+            this.materialButton11.Icon = ((System.Drawing.Image)(resources.GetObject("materialButton11.Icon")));
+            this.materialButton11.Location = new System.Drawing.Point(142, 227);
+            this.materialButton11.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton11.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton11.Name = "materialButton11";
+            this.materialButton11.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.materialButton11.Size = new System.Drawing.Size(170, 36);
+            this.materialButton11.TabIndex = 4;
+            this.materialButton11.Text = "人/椅自由仿真模型";
+            this.materialButton11.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.materialButton11.UseAccentColor = true;
+            this.materialButton11.UseVisualStyleBackColor = true;
             // 
             // tabPage3
             // 
@@ -263,6 +372,130 @@ namespace WindowsFormsApp2
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "数据管理";
             this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // materialButton16
+            // 
+            this.materialButton16.AccentTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(64)))), ((int)(((byte)(129)))));
+            this.materialButton16.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton16.CharacterCasing = MaterialSkin.Controls.MaterialButton.CharacterCasingEnum.Normal;
+            this.materialButton16.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButton16.Depth = 0;
+            this.materialButton16.HighEmphasis = true;
+            this.materialButton16.Icon = null;
+            this.materialButton16.Location = new System.Drawing.Point(105, 223);
+            this.materialButton16.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton16.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton16.Name = "materialButton16";
+            this.materialButton16.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.materialButton16.Size = new System.Drawing.Size(93, 36);
+            this.materialButton16.TabIndex = 10;
+            this.materialButton16.Text = "弹射轨迹线";
+            this.materialButton16.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.materialButton16.UseAccentColor = false;
+            this.materialButton16.UseVisualStyleBackColor = true;
+            this.materialButton16.Click += new System.EventHandler(this.materialButton16_Click);
+            // 
+            // chart1
+            // 
+            chartArea2.Area3DStyle.Enable3D = true;
+            chartArea2.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea2);
+            legend2.Name = "Legend1";
+            this.chart1.Legends.Add(legend2);
+            this.chart1.Location = new System.Drawing.Point(383, 6);
+            this.chart1.Name = "chart1";
+            series2.ChartArea = "ChartArea1";
+            series2.Legend = "Legend1";
+            series2.Name = "Series1";
+            this.chart1.Series.Add(series2);
+            this.chart1.Size = new System.Drawing.Size(300, 300);
+            this.chart1.TabIndex = 9;
+            this.chart1.Text = "chart1";
+            this.chart1.Click += new System.EventHandler(this.chart1_Click);
+            // 
+            // materialButton15
+            // 
+            this.materialButton15.AccentTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(64)))), ((int)(((byte)(129)))));
+            this.materialButton15.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton15.CharacterCasing = MaterialSkin.Controls.MaterialButton.CharacterCasingEnum.Normal;
+            this.materialButton15.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButton15.Depth = 0;
+            this.materialButton15.HighEmphasis = true;
+            this.materialButton15.Icon = null;
+            this.materialButton15.Location = new System.Drawing.Point(273, 152);
+            this.materialButton15.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton15.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton15.Name = "materialButton15";
+            this.materialButton15.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.materialButton15.Size = new System.Drawing.Size(93, 36);
+            this.materialButton15.TabIndex = 8;
+            this.materialButton15.Text = "仿真模型库";
+            this.materialButton15.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Outlined;
+            this.materialButton15.UseAccentColor = true;
+            this.materialButton15.UseVisualStyleBackColor = true;
+            // 
+            // materialButton14
+            // 
+            this.materialButton14.AccentTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(64)))), ((int)(((byte)(129)))));
+            this.materialButton14.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton14.CharacterCasing = MaterialSkin.Controls.MaterialButton.CharacterCasingEnum.Normal;
+            this.materialButton14.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButton14.Depth = 0;
+            this.materialButton14.HighEmphasis = true;
+            this.materialButton14.Icon = null;
+            this.materialButton14.Location = new System.Drawing.Point(273, 55);
+            this.materialButton14.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton14.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton14.Name = "materialButton14";
+            this.materialButton14.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.materialButton14.Size = new System.Drawing.Size(93, 36);
+            this.materialButton14.TabIndex = 7;
+            this.materialButton14.Text = "几何模型库";
+            this.materialButton14.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.materialButton14.UseAccentColor = true;
+            this.materialButton14.UseVisualStyleBackColor = true;
+            // 
+            // materialButton13
+            // 
+            this.materialButton13.AccentTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(64)))), ((int)(((byte)(129)))));
+            this.materialButton13.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton13.CharacterCasing = MaterialSkin.Controls.MaterialButton.CharacterCasingEnum.Normal;
+            this.materialButton13.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButton13.Depth = 0;
+            this.materialButton13.HighEmphasis = true;
+            this.materialButton13.Icon = null;
+            this.materialButton13.Location = new System.Drawing.Point(91, 152);
+            this.materialButton13.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton13.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton13.Name = "materialButton13";
+            this.materialButton13.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.materialButton13.Size = new System.Drawing.Size(93, 36);
+            this.materialButton13.TabIndex = 6;
+            this.materialButton13.Text = "本构模型库";
+            this.materialButton13.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Outlined;
+            this.materialButton13.UseAccentColor = false;
+            this.materialButton13.UseVisualStyleBackColor = true;
+            // 
+            // materialButton12
+            // 
+            this.materialButton12.AccentTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(64)))), ((int)(((byte)(129)))));
+            this.materialButton12.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialButton12.CharacterCasing = MaterialSkin.Controls.MaterialButton.CharacterCasingEnum.Normal;
+            this.materialButton12.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.materialButton12.Depth = 0;
+            this.materialButton12.HighEmphasis = true;
+            this.materialButton12.Icon = null;
+            this.materialButton12.Location = new System.Drawing.Point(91, 55);
+            this.materialButton12.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialButton12.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialButton12.Name = "materialButton12";
+            this.materialButton12.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.materialButton12.Size = new System.Drawing.Size(93, 36);
+            this.materialButton12.TabIndex = 5;
+            this.materialButton12.Text = "材料参数库";
+            this.materialButton12.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.materialButton12.UseAccentColor = false;
+            this.materialButton12.UseVisualStyleBackColor = true;
             // 
             // imageList1
             // 
@@ -299,9 +532,33 @@ namespace WindowsFormsApp2
             // 保存ToolStripMenuItem
             // 
             this.保存ToolStripMenuItem.Name = "保存ToolStripMenuItem";
-            this.保存ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.保存ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.保存ToolStripMenuItem.Text = "新项目";
             this.保存ToolStripMenuItem.Click += new System.EventHandler(this.保存ToolStripMenuItem_Click);
+            // 
+            // 打开已有项目ToolStripMenuItem
+            // 
+            this.打开已有项目ToolStripMenuItem.Name = "打开已有项目ToolStripMenuItem";
+            this.打开已有项目ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.打开已有项目ToolStripMenuItem.Text = "打开已有项目";
+            // 
+            // 保存项目ToolStripMenuItem
+            // 
+            this.保存项目ToolStripMenuItem.Name = "保存项目ToolStripMenuItem";
+            this.保存项目ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.保存项目ToolStripMenuItem.Text = "保存项目";
+            // 
+            // 生成报告ToolStripMenuItem
+            // 
+            this.生成报告ToolStripMenuItem.Name = "生成报告ToolStripMenuItem";
+            this.生成报告ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.生成报告ToolStripMenuItem.Text = "生成报告";
+            // 
+            // 退出ToolStripMenuItem
+            // 
+            this.退出ToolStripMenuItem.Name = "退出ToolStripMenuItem";
+            this.退出ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.退出ToolStripMenuItem.Text = "退出";
             // 
             // 覅给ToolStripMenuItem
             // 
@@ -315,259 +572,15 @@ namespace WindowsFormsApp2
             this.发给ToolStripMenuItem.Size = new System.Drawing.Size(44, 21);
             this.发给ToolStripMenuItem.Text = "数据";
             // 
-            // materialButton7
+            // button1
             // 
-            this.materialButton7.AccentTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(64)))), ((int)(((byte)(129)))));
-            this.materialButton7.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton7.CharacterCasing = MaterialSkin.Controls.MaterialButton.CharacterCasingEnum.Normal;
-            this.materialButton7.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButton7.Depth = 0;
-            this.materialButton7.HighEmphasis = true;
-            this.materialButton7.Icon = null;
-            this.materialButton7.Location = new System.Drawing.Point(140, 189);
-            this.materialButton7.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton7.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton7.Name = "materialButton7";
-            this.materialButton7.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.materialButton7.Size = new System.Drawing.Size(136, 36);
-            this.materialButton7.TabIndex = 6;
-            this.materialButton7.Text = "弹射座椅几何模型";
-            this.materialButton7.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton7.UseAccentColor = false;
-            this.materialButton7.UseVisualStyleBackColor = true;
-            // 
-            // materialButton8
-            // 
-            this.materialButton8.AccentTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(64)))), ((int)(((byte)(129)))));
-            this.materialButton8.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton8.CharacterCasing = MaterialSkin.Controls.MaterialButton.CharacterCasingEnum.Normal;
-            this.materialButton8.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButton8.Depth = 0;
-            this.materialButton8.HighEmphasis = true;
-            this.materialButton8.Icon = null;
-            this.materialButton8.Location = new System.Drawing.Point(313, 43);
-            this.materialButton8.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton8.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton8.Name = "materialButton8";
-            this.materialButton8.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.materialButton8.Size = new System.Drawing.Size(122, 36);
-            this.materialButton8.TabIndex = 7;
-            this.materialButton8.Text = "稳定伞几何模型";
-            this.materialButton8.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton8.UseAccentColor = false;
-            this.materialButton8.UseVisualStyleBackColor = true;
-            // 
-            // materialButton9
-            // 
-            this.materialButton9.AccentTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(64)))), ((int)(((byte)(129)))));
-            this.materialButton9.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton9.CharacterCasing = MaterialSkin.Controls.MaterialButton.CharacterCasingEnum.Normal;
-            this.materialButton9.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButton9.Depth = 0;
-            this.materialButton9.HighEmphasis = true;
-            this.materialButton9.Icon = null;
-            this.materialButton9.Location = new System.Drawing.Point(313, 114);
-            this.materialButton9.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton9.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton9.Name = "materialButton9";
-            this.materialButton9.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.materialButton9.Size = new System.Drawing.Size(122, 36);
-            this.materialButton9.TabIndex = 8;
-            this.materialButton9.Text = "救生伞几何模型";
-            this.materialButton9.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton9.UseAccentColor = false;
-            this.materialButton9.UseVisualStyleBackColor = true;
-            // 
-            // materialButton10
-            // 
-            this.materialButton10.AccentTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(64)))), ((int)(((byte)(129)))));
-            this.materialButton10.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton10.CharacterCasing = MaterialSkin.Controls.MaterialButton.CharacterCasingEnum.Normal;
-            this.materialButton10.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButton10.Depth = 0;
-            this.materialButton10.HighEmphasis = true;
-            this.materialButton10.Icon = null;
-            this.materialButton10.Location = new System.Drawing.Point(313, 189);
-            this.materialButton10.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton10.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton10.Name = "materialButton10";
-            this.materialButton10.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.materialButton10.Size = new System.Drawing.Size(122, 36);
-            this.materialButton10.TabIndex = 9;
-            this.materialButton10.Text = "救生伞几何模型";
-            this.materialButton10.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.materialButton10.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton10.UseAccentColor = false;
-            this.materialButton10.UseVisualStyleBackColor = true;
-            // 
-            // materialButton11
-            // 
-            this.materialButton11.AccentTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(64)))), ((int)(((byte)(129)))));
-            this.materialButton11.CharacterCasing = MaterialSkin.Controls.MaterialButton.CharacterCasingEnum.Normal;
-            this.materialButton11.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButton11.Depth = 0;
-            this.materialButton11.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.materialButton11.HighEmphasis = true;
-            this.materialButton11.Icon = ((System.Drawing.Image)(resources.GetObject("materialButton11.Icon")));
-            this.materialButton11.Location = new System.Drawing.Point(142, 227);
-            this.materialButton11.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton11.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton11.Name = "materialButton11";
-            this.materialButton11.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.materialButton11.Size = new System.Drawing.Size(170, 36);
-            this.materialButton11.TabIndex = 4;
-            this.materialButton11.Text = "人/椅自由仿真模型";
-            this.materialButton11.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton11.UseAccentColor = true;
-            this.materialButton11.UseVisualStyleBackColor = true;
-            // 
-            // materialButton12
-            // 
-            this.materialButton12.AccentTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(64)))), ((int)(((byte)(129)))));
-            this.materialButton12.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton12.CharacterCasing = MaterialSkin.Controls.MaterialButton.CharacterCasingEnum.Normal;
-            this.materialButton12.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButton12.Depth = 0;
-            this.materialButton12.HighEmphasis = true;
-            this.materialButton12.Icon = null;
-            this.materialButton12.Location = new System.Drawing.Point(91, 55);
-            this.materialButton12.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton12.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton12.Name = "materialButton12";
-            this.materialButton12.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.materialButton12.Size = new System.Drawing.Size(93, 36);
-            this.materialButton12.TabIndex = 5;
-            this.materialButton12.Text = "材料参数库";
-            this.materialButton12.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton12.UseAccentColor = false;
-            this.materialButton12.UseVisualStyleBackColor = true;
-            // 
-            // materialButton13
-            // 
-            this.materialButton13.AccentTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(64)))), ((int)(((byte)(129)))));
-            this.materialButton13.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton13.CharacterCasing = MaterialSkin.Controls.MaterialButton.CharacterCasingEnum.Normal;
-            this.materialButton13.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButton13.Depth = 0;
-            this.materialButton13.HighEmphasis = true;
-            this.materialButton13.Icon = null;
-            this.materialButton13.Location = new System.Drawing.Point(91, 152);
-            this.materialButton13.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton13.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton13.Name = "materialButton13";
-            this.materialButton13.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.materialButton13.Size = new System.Drawing.Size(93, 36);
-            this.materialButton13.TabIndex = 6;
-            this.materialButton13.Text = "本构模型库";
-            this.materialButton13.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Outlined;
-            this.materialButton13.UseAccentColor = false;
-            this.materialButton13.UseVisualStyleBackColor = true;
-            // 
-            // materialButton14
-            // 
-            this.materialButton14.AccentTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(64)))), ((int)(((byte)(129)))));
-            this.materialButton14.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton14.CharacterCasing = MaterialSkin.Controls.MaterialButton.CharacterCasingEnum.Normal;
-            this.materialButton14.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButton14.Depth = 0;
-            this.materialButton14.HighEmphasis = true;
-            this.materialButton14.Icon = null;
-            this.materialButton14.Location = new System.Drawing.Point(273, 55);
-            this.materialButton14.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton14.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton14.Name = "materialButton14";
-            this.materialButton14.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.materialButton14.Size = new System.Drawing.Size(93, 36);
-            this.materialButton14.TabIndex = 7;
-            this.materialButton14.Text = "几何模型库";
-            this.materialButton14.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton14.UseAccentColor = true;
-            this.materialButton14.UseVisualStyleBackColor = true;
-            // 
-            // materialButton15
-            // 
-            this.materialButton15.AccentTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(64)))), ((int)(((byte)(129)))));
-            this.materialButton15.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton15.CharacterCasing = MaterialSkin.Controls.MaterialButton.CharacterCasingEnum.Normal;
-            this.materialButton15.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButton15.Depth = 0;
-            this.materialButton15.HighEmphasis = true;
-            this.materialButton15.Icon = null;
-            this.materialButton15.Location = new System.Drawing.Point(273, 152);
-            this.materialButton15.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton15.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton15.Name = "materialButton15";
-            this.materialButton15.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.materialButton15.Size = new System.Drawing.Size(93, 36);
-            this.materialButton15.TabIndex = 8;
-            this.materialButton15.Text = "仿真模型库";
-            this.materialButton15.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Outlined;
-            this.materialButton15.UseAccentColor = true;
-            this.materialButton15.UseVisualStyleBackColor = true;
-            // 
-            // 打开已有项目ToolStripMenuItem
-            // 
-            this.打开已有项目ToolStripMenuItem.Name = "打开已有项目ToolStripMenuItem";
-            this.打开已有项目ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.打开已有项目ToolStripMenuItem.Text = "打开已有项目";
-            // 
-            // 保存项目ToolStripMenuItem
-            // 
-            this.保存项目ToolStripMenuItem.Name = "保存项目ToolStripMenuItem";
-            this.保存项目ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.保存项目ToolStripMenuItem.Text = "保存项目";
-            // 
-            // 生成报告ToolStripMenuItem
-            // 
-            this.生成报告ToolStripMenuItem.Name = "生成报告ToolStripMenuItem";
-            this.生成报告ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.生成报告ToolStripMenuItem.Text = "生成报告";
-            // 
-            // 退出ToolStripMenuItem
-            // 
-            this.退出ToolStripMenuItem.Name = "退出ToolStripMenuItem";
-            this.退出ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.退出ToolStripMenuItem.Text = "退出";
-            // 
-            // chart1
-            // 
-            chartArea3.Area3DStyle.Enable3D = true;
-            chartArea3.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea3);
-            legend3.Name = "Legend1";
-            this.chart1.Legends.Add(legend3);
-            this.chart1.Location = new System.Drawing.Point(383, 6);
-            this.chart1.Name = "chart1";
-            series3.ChartArea = "ChartArea1";
-            series3.Legend = "Legend1";
-            series3.Name = "Series1";
-            this.chart1.Series.Add(series3);
-            this.chart1.Size = new System.Drawing.Size(300, 300);
-            this.chart1.TabIndex = 9;
-            this.chart1.Text = "chart1";
-            this.chart1.Click += new System.EventHandler(this.chart1_Click);
-            // 
-            // materialButton16
-            // 
-            this.materialButton16.AccentTextColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(64)))), ((int)(((byte)(129)))));
-            this.materialButton16.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton16.CharacterCasing = MaterialSkin.Controls.MaterialButton.CharacterCasingEnum.Normal;
-            this.materialButton16.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButton16.Depth = 0;
-            this.materialButton16.HighEmphasis = true;
-            this.materialButton16.Icon = null;
-            this.materialButton16.Location = new System.Drawing.Point(105, 223);
-            this.materialButton16.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton16.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton16.Name = "materialButton16";
-            this.materialButton16.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.materialButton16.Size = new System.Drawing.Size(93, 36);
-            this.materialButton16.TabIndex = 10;
-            this.materialButton16.Text = "弹射轨迹线";
-            this.materialButton16.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton16.UseAccentColor = false;
-            this.materialButton16.UseVisualStyleBackColor = true;
-            this.materialButton16.Click += new System.EventHandler(this.materialButton16_Click);
+            this.button1.Location = new System.Drawing.Point(549, 87);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 10;
+            this.button1.Text = "用于测试";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
@@ -593,9 +606,9 @@ namespace WindowsFormsApp2
             this.tabPage2.PerformLayout();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -634,6 +647,7 @@ namespace WindowsFormsApp2
         private System.Windows.Forms.ToolStripMenuItem 退出ToolStripMenuItem;
         private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
         private MaterialSkin.Controls.MaterialButton materialButton16;
+        private System.Windows.Forms.Button button1;
     }
 }
 
